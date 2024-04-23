@@ -1,3 +1,3 @@
 #!/bin/bash
-git clone https://github.com/A-KTO-Tbl/INSIDE ~/.upkg-packages/INSIDE && cd INSIDE && pip3 install -r Core/requirements.txt
+git clone https://github.com/A-KTO-Tbl/INSIDE ~/.upkg-packages/INSIDE && cd ~/.upkg-packages/INSIDE && pip3 install -r Core/requirements.txt
 sudo echo python3 ~/.upkg-packages/INSIDE/GUI.py > /usr/bin/inside
